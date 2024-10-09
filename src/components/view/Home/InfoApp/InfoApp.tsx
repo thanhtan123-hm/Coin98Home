@@ -25,7 +25,9 @@ const InfoApp = () => {
                             <div className="Image_imageBox__Jchv7 item-info-app item-info-app--app-2">
                                 <div className="info-content">
                                     <h3 className="text-title">Instantly transfer<br/>money globally</h3>
-                                    <div className="info-content__description">Send and receive money to anyone, anywhere in just seconds with no barriers.</div>
+                                    <div className="info-content__description">
+                                        Send and receive money to anyone, anywhere in just seconds with no barriers.
+                                    </div>
                                 </div>
                                 <div className="info-image">
                                     <div className="Image_imageBox__Jchv7 img-sub">

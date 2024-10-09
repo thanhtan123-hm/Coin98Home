@@ -17,7 +17,7 @@
 
         
         .video-banner{
-            top:-25%;
+            top:-22%;
             width: 100%;
             position: absolute;
             bottom: 0;
@@ -29,7 +29,7 @@
         .banner-content{
             padding: 0 2.4rem;
             margin: 0 auto;
-            max-width: 100%;
+            max-width: 1280px;
             padding: 0 2.4rem;
             display: flex;
             flex-direction: column;
@@ -45,6 +45,7 @@
                 align-items: center;
                 justify-content: center;
                 gap: 2.4rem;
+                width: 1280px;
             }
 
             .text-description{

@@ -50,6 +50,7 @@
 
                 .info-image {
                     width: 100%;
+                    height: 83vh;
                     // aspect-ratio: 1/1;
                     border-radius: 2rem;
                     background-color: #fdc743;
@@ -80,6 +81,7 @@
                     background-color: $backgroud-black;
                     color: $backgroud-white;
 
+                    // height: 744.23px;
                 }
 
                 .item-info-app--app-2{
@@ -95,12 +97,12 @@
                         background-color: $backgroud-white;
                         // position: relative;
                         z-index: 0;
-                        width: 59%;
+                        width: 59.62%;
                         height: 83vh;
                     }
 
                     .img-sub{
-                        border-radius: 2rem;
+                        // border-radius: 2rem;
                         position: absolute;
                         z-index: -1;
                         top: 0;
