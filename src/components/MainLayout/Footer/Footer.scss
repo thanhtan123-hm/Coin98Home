@@ -1,0 +1,157 @@
+@import '@/styles/_color.scss';
+@import '@/styles/_variable.scss';
+@import '@/styles/global.scss';
+
+footer {
+    // width: 100%; 
+    background-color: $backgroud-white; 
+    padding: 120px 120px 40px 120px;
+    // // display: flex;
+    // justify-content: center;
+
+    .footer-wrapper {
+        padding: 10rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .footer-container {
+        padding:0;
+        max-width: 1280px;
+        // font-size: 20px;
+        // display: flex;
+        // justify-content: space-between; 
+        // flex-wrap: wrap; 
+        color: $backgroud-black;
+      }
+
+      .footer-menu-container{
+        gap: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid #f1f1f1;
+
+        .footer-logo {
+            // width: 121px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+        
+            .imageBox {
+                align-items: center;
+                flex-direction: column;
+                width: 121px;
+                display: flex;
+              img {
+                position: unset !important;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+              }
+            }
+        
+            .social-icon {
+              margin-top: 20px; /* Khoảng cách giữa logo và icon mạng xã hội */
+              display: flex;
+              gap: 32px;
+              align-items: center;
+
+              
+        
+              a {
+                color: unset;
+                text-decoration: none;
+                transition: all .3s;
+                cursor: pointer;
+
+              .social-icon{
+                &:hover {
+                  svg {
+                    fill: #ffd633;
+                  }
+                }
+              }
+
+                .icon-facebook::before {
+                    content: url('../../../../public/facebook.svg'); /* Đường dẫn đến file SVG Facebook */
+                    font-size: 28px;               
+                }
+
+                .icon-discord::before {
+                    content: url('../../../../public/discord.svg'); /* Đường dẫn đến file SVG Discord */
+                    font-size: 28px;   
+                }
+
+                .icon-telegram::before {
+                    content: url('../../../../public/tele.svg'); /* Đường dẫn đến file SVG Telegram */
+                    font-size: 28px;
+                }
+
+                .icon-google::before {
+                    content: url('../../../../public/gmail.svg'); /* Đường dẫn đến file SVG Google */
+                    font-size: 28px;
+                }
+
+                .icon-twitter::before {
+                    content: url('../../../../public/twitter.svg'); /* Đường dẫn đến file SVG Twitter */
+                    font-size: 28px;
+                }
+                
+
+                .icon-social1::before {
+                    content: url('../../../../public/Chat.svg'); /* Đường dẫn đến file SVG khác */
+                    font-size: 28px;  
+                }
+              }
+            }
+          }
+        
+          .footer-menu {
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding-bottom: 80px;
+            gap: 0; 
+            
+            .menu-box {
+              font-size: 1.6rem;
+              .menu-title {
+                font-weight: 700;
+                margin-bottom: 16px; 
+              }
+        
+              .menu-list {
+        
+                .menu-item {
+                  margin-bottom: 12px;
+                  cursor: pointer;
+                  width: max-content;
+                  a {
+                    transition: all .3s;
+                    color: unset;
+        
+                    &:hover {
+                      color: #ffd633; /* Màu khi hover vào item */
+                    }
+                  }
+                }
+              }
+            }
+          }     
+      }
+      
+
+    
+    
+      .footer-text {
+        display: flex;
+        margin-top: 24px;
+        justify-content: space-between;
+        color: #b0b0b0;
+        font-size: 14px;
+  
+      }
+}

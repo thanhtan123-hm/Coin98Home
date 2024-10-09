@@ -1,0 +1,154 @@
+@import '@/styles/main.scss';
+
+.info-app{
+    padding: 12rem 0 0;
+    font-size: 2rem;
+
+    .info-app-container{
+        padding: 0;
+        max-width: 1280px;
+        margin: 0 auto;
+
+        .info-app-title{
+            text-align: left;
+        }
+
+        .info-app-list{
+            margin-top: 15rem;
+
+            .item-info-wrapper{
+                position: sticky;
+                height: 100vh;
+                top: 10%;
+                 
+                .item-info-app{
+                    display: grid;
+                    border-radius: 2rem;
+                    width: 100%;
+                    gap:10rem;
+                    padding: 3.2rem;
+                    grid-template-columns: repeat(2,1fr);
+                    align-items: stretch;
+                }
+
+                .item-info-app:last-child{
+                    margin-bottom: 0;
+                }
+
+                .info-content{
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // width: 558px;
+                    font-size: 2rem;
+
+                    .text-title{
+                        margin-bottom: 3.2rem;
+                    }
+                }
+
+                .info-image {
+                    width: 100%;
+                    // aspect-ratio: 1/1;
+                    border-radius: 2rem;
+                    background-color: #fdc743;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    position: relative;
+                }
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    color: transparent;
+                    position: unset;
+                }
+
+                .img-screen--img-1{
+                    margin-top: 5%;
+                    width: 42.5rem;
+                }
+
+                .Image_imageBox__Jchv7 {
+                    display: flex;
+                    align-items: center
+                }
+
+                .item-info-app--app-1{
+                    background-color: $backgroud-black;
+                    color: $backgroud-white;
+
+                }
+
+                .item-info-app--app-2{
+                    
+                    background-color: #fdc743;
+                
+
+                    .info-image {
+                        // display: flex;
+                        // align-items: flex-end;
+                        // justify-content: center;
+                        // aspect-ratio: 1/1;
+                        background-color: $backgroud-white;
+                        // position: relative;
+                        z-index: 0;
+                        width: 59%;
+                        height: 83vh;
+                    }
+
+                    .img-sub{
+                        border-radius: 2rem;
+                        position: absolute;
+                        z-index: -1;
+                        top: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                    }
+
+                    .img-screen--img-2{
+                        margin-top: 5%;
+                        width: 42.5rem;
+                    }          
+                }
+
+                .item-info-app--app-3{
+                    
+                    background-color: #e5e4e3;
+                
+
+                    .info-image {
+                        // display: flex;
+                        // align-items: flex-end;
+                        // justify-content: center;
+                        // aspect-ratio: 1/1;
+                        background-color: #fdc743;
+                        // position: relative;
+                        z-index: 0;
+                        width: 100%;
+                        height: 83vh;
+                    }
+
+                    // .img-sub{
+                    //     border-radius: 2rem;
+                    //     position: absolute;
+                    //     z-index: -1;
+                    //     top: 0;
+                    //     left: 50%;
+                    //     transform: translateX(-50%);
+                    //     width: 100%;
+                    // }
+
+                    .img-screen--img-3{
+                        margin-top: 5%;
+                        width: 42.5rem;
+                    }          
+                }
+            }
+        }
+    }
+}
+
